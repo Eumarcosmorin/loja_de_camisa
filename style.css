@@ -4,27 +4,40 @@
 
 #perfil{
 
+    height: 120vh;
     text-align: center;
 
 }
+
 #perfil>img{
 
+    margin-top: 40%;
     width: 50%;
 }
 
-/*CTA*/
+#perfil>h1{
 
-#cta{text-align: center;}
+  margin-top: 10%;
 
-#cta>a{
+}
 
-    text-decoration: none;
-    color: white;
-    background-color: green;
-    padding: 2%;
-    border: solid black;
-    border-radius: 30px;
+#perfil>h2{
 
+  margin-top: 10%;
+  margin-bottom: 20%;
+
+}
+
+#perfil>a{
+
+  font-size: 40px;
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  padding: 3%;
+  border: solid black 2px;
+  box-shadow: black 1px 1px 15px 1px;
+  border-radius: 30px;
 }
 
 /*APRESENTAÇÃO*/
@@ -32,6 +45,21 @@
 #apresentação{
 
     text-align: center;
+    height: 100vh;
+
+}
+
+#apresentação>p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  margin-top: 10%;
+  font-size: 35px;
+
+}
+
+#apresentação>img{
+  
+  width: 100vw;
 
 }
 
@@ -40,22 +68,45 @@
 #produtos{
 
     text-align: center;
+    height: 200vh;
+
+}
+
+#camisa-homem>p{
+
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  color: green;
+  margin-bottom: 20%;
 
 }
 
 #camisa-homem>a{
 
+    font-size: 25px;
     text-decoration: none;
     color: white;
     background-color: green;
     padding: 2%;
     border: solid black;
     border-radius: 30px;
+
+}
+
+#camisa-mulher>p{
+
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  color: green;
+  margin-bottom: 20%;
 
 }
 
 #camisa-mulher>a{
 
+    font-size: 25px;
     text-decoration: none;
     color: white;
     background-color: green;
@@ -65,19 +116,23 @@
     
 }
 
+
+
 /*BENEFICIOS*/
 
 #beneficios > ul {
 
-    
+    margin-top: 20%;
+    background-color: rgba(255, 228, 196, 0.479);
+
     list-style: none; 
-    padding: 0;       
-    margin: 0,0;       
+    padding: 0;             
   
 }
 
 #beneficios > ul > li {
 
+  padding: 2%;
   text-align: center;
   
 }
@@ -85,43 +140,37 @@
 /*PROVA-SOCIAL*/
 
 #prova-social {
-  display: flex;                  /* deixa os cards lado a lado */
-  justify-content: center;        /* centraliza todos os cards na section */
-  gap: 30px;                      /* espaço entre os cards */
-  flex-wrap: wrap;                /* quebra linha se não couber */
+  display: flex;                  
+  justify-content: center;        
+  gap: 30px;
+  flex-wrap: wrap;                
   padding: 20px;
 }
 
 #prova {
-  display: flex;                  /* imagem ao lado do texto */
-  align-items: center;            /* centraliza verticalmente imagem + texto */
-  gap: 15px;                      /* espaço entre imagem e texto */
-  background-color: #f7f7f7;      /* só para visualização */
-  padding: 10px 20px;
+  display: flex;                  
+  align-items: center;           
+  gap: 15px;                      
+  background-color: #f7f7f7;      
   border-radius: 10px;
 }
 
 #prova img {
-  width: 60px;                    /* tamanho da imagem */
-  height: 60px;
-  border-radius: 50%;             /* deixa circular */
+  width: 15%;                  
 }
-
-#prova p {
-  margin: 0;                      /* remove margem padrão */
-}
-
 
 /*CTA-FINAL*/
 
 #cta-final{    
-    
+    height: 5vh;
+    margin-top: 10%;
     text-align: center;
 
 }
 
 #cta-final>a{
-
+    margin: 20px ,50px;
+    font-size: 25px;
     text-decoration: none;
     color: white;
     background-color: green;
