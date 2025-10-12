@@ -16,6 +16,18 @@
 
 }
 
+/*-----------*/
+
+@keyframes movimento {
+
+  0%{transform: translateY(0);}
+  50%{transform: translateY(-20px);}
+  100%{transform: translateY(0);}
+  
+}
+
+
+
 #perfil{
 
     height: 120vh;
@@ -26,7 +38,8 @@
 #perfil>img{
 
     margin-top: 40%;
-    width: 50%;
+    width: 60%;
+       animation: movimento 4s infinite;
 }
 
 #perfil>h1{
