@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "titulo";          /* Nome que você vai usar no CSS */
+  src: url("fontes/LEMONMILK-Bold.otf") format("opentype");
+  font-weight: normal;              /* normal, bold, etc */
+  font-style: normal;               /* normal, italic */
+}
+
+@font-face {
+  font-family: "texto";          /* Nome que você vai usar no CSS */
+  src: url("fontes/arial_narrow_7.ttf") format("opentype");
+  font-weight: normal;              /* normal, bold, etc */
+  font-style: normal;               /* normal, italic */
+}
+
+
+:root{
+  --titulo: titulo;
+  --texto: texto;
+}
+
+*{
+
+  margin: 0px;
+  padding: 0px;
+
+}
+/*HEADER*/
+header>p{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
+
+nav{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+nav>img{
+
+    width: 80px;
+
+}
+/*=======================*/
+
+/*CAMISA*/
+.img{
+
+    display: flex;
+    margin: 10px auto 30px auto;
+    justify-content: center;
+   
+}
+
+.img>img{
+
+ width: 500px;
+
+}
+
+/*========================*/
+
+/*NOME E PREÇO*/
+.texto>h1{
+
+    text-align: left;
+    font-family: var(--titulo);
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.texto>h3{
+    font-family: var(--texto);
+    margin: 10px 0px 5px 10px;
+}
+
+.texto>p{
+    font-family: var(--texto);
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+
+span{
+
+    text-decoration: line-through;
+}
+/*=========================*/
+
+/*TAMANHO*/
+
+.tamanhos{
+
+    display: flex;
+    margin: 10px 0px 50px 10px;
+    gap: 10px;
+}
+
+.tamanhos>div>p{
+
+    font-family: var(--texto);
+}
+
+/*======================*/
+
+/*QUERO A MINHA*/
+
+.contato{
+
+    display: flex;
+    justify-content: center;
+}
+.contato>a:hover{
+
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+.contato>a{
+
+    font-size: 20px;
+    margin: 0px auto 50px auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: var(--texto);
+    border-radius: 30px;
+    box-shadow: green 2px 2px 10px 5px;
+}
+/*==========================*/
+
+/*RODAPE*/
+
+footer{
+  
+  background-color: black;
+  color: aliceblue;
+}
+
+footer>p{
+
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial;
+  text-decoration: underline;
+  padding: 5px;
+
+}
+
+/**/

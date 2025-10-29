@@ -112,17 +112,20 @@ text-align: center;
   font-family: var(--texto);
 }
 
-.todas-as-camisas>div>h2{
+.todas-as-camisas>div>a{
 
+  display: flex;
+  justify-content: center;
   margin: 5px auto;
   padding: 5px;
   background-color: rgb(60, 201, 60);
-  width: 150px;
+  width: 130px;
   border-radius: 30px;
   font-family: Arial;
   font-weight: normal;
   font-size: small;
   color: aliceblue;
+  text-decoration: none;
 }
 
 /*=============*/
