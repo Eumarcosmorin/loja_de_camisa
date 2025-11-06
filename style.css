@@ -26,6 +26,7 @@
 
   margin: 0px;
   padding: 0px;
+  background-color: #050605;
 
 }
 
@@ -41,9 +42,9 @@
 
 header>p{
 
-  background-color: black;
+  background-color: rgb(255, 0, 0);
   color: aliceblue;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   font-size: 10px;
 }
@@ -52,15 +53,27 @@ header>p{
 
 /*NAVEGADOR*/
 
+header{
+
+  background-color: #050605;
+
+}
+
 nav{
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 10px;
 
 }
 
+nav>a{
+
+  text-decoration: none;
+  color: aliceblue;
+
+}
 nav>img{
   width: 80px;
 }
@@ -86,6 +99,18 @@ nav>img{
 
 /*=============*/
 
+/*TEXTO -2*/
+
+.texto2>p{
+  background-color: red;
+  text-align: center;
+  color: aliceblue;
+  font-size: 10px;
+  padding: 5px;
+
+}
+/*=============*/
+
 /*CAMISAS*/
 
 .camisas>h2{
@@ -104,12 +129,29 @@ nav>img{
 .todas-as-camisas>div{
 
 text-align: center;
+background-color: #050605;
 
+}
+
+.nome{
+
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.nome-{
+
+  text-align: left;
+}
+
+div>img{
+
+  width: 197px;
 }
 
 .todas-as-camisas>div>h3,p{
 
-  font-family: var(--texto);
+  font-size: 10px;
 }
 
 .todas-as-camisas>div>a{
